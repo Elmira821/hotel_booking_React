@@ -1,0 +1,76 @@
+/* MailList.css */
+
+.bg-gradient {
+    background: linear-gradient(to bottom, #227489, #92c8d5);
+    
+    
+}
+
+.section-container {
+    width: 1300px; /* Adjust as needed */
+    margin: 100px auto 0;
+    padding: 5px;
+   
+}
+
+.title-container {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+
+.subtitle {
+    color: #f5f5f5;
+    font-size: 15px;
+    margin-top: 0.3%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.input-container {
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.input-field {
+    width: 250px; /* Adjust as needed */
+    height: 30px;
+    padding: 0 10px;
+    /* margin-right: 5px; */
+    border: none;
+    border-radius: 5px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #1e88e5;
+}
+
+.button {
+    width: 120px; /* Adjust as needed */
+    height: 30px;
+    background-color: #103346;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    
+}
+
+.button:hover {
+    background-color: #0f4057;
+}
